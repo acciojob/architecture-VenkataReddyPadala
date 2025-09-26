@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+body{
+	width:1100px;
+}
+table{
+	border-spacing:0;
+}
+tr td:nth-child(odd){
+	width:200px;
+}
+
+tr td:nth-child(2){
+	width:600px;
+	text-align:center
+}
+tr td img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
